@@ -2,6 +2,7 @@ import "./Sidebar.css";
 import { useContext, useEffect } from "react";
 import { MyContext } from "./MyContext";
 import { v1 as uuidv1 } from "uuid";
+import logo from "./assets/blacklogo.png";  // ← import add kiya
 
 const BACKEND_URL = "https://project2-yuj2.onrender.com";
 
@@ -61,7 +62,7 @@ function Sidebar(){
     return (
         <section className="sidebar">
             <button onClick={createNewChat}>
-                <img src="src/assets/blacklogo.png" alt="gpt logo" className="logo" />
+                <img src={logo} alt="gpt logo" className="logo" />  {/* ← fix kiya */}
                 <span>New Chat <i className="fa-solid fa-pen-to-square"></i></span>
             </button>
 
