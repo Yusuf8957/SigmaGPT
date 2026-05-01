@@ -1,4 +1,4 @@
-```markdown
+
 # SigmaGPT 🤖
 
 A full-stack AI-powered chat application inspired by ChatGPT, built with React and Node.js. SigmaGPT leverages the Groq API with the LLaMA 3.3 70B model to deliver fast, intelligent responses with a clean and modern UI.
